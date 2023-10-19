@@ -1,10 +1,10 @@
 import java.util.*;
 
 public class Grafo {
-    private int numeroDeVertices; // Número de vértices
-    private LinkedList<Integer>[] listaDeAdjacencia; // Lista de adjacência
+    private int numeroDeVertices; 
+    private LinkedList<Integer>[] listaDeAdjacencia; 
 
-    // Construtor
+    
     Grafo(int numeroDeVertices) {
         this.numeroDeVertices = numeroDeVertices;
         listaDeAdjacencia = new LinkedList[numeroDeVertices];
